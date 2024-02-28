@@ -16,6 +16,7 @@
     <style>
         input[type='text'] {
             width: 100%;
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -44,7 +45,7 @@
         <div style="width: 60%;">
             <h4>Ficha de Financiamento</h5>
                 <hr>
-                <div class="container container-financiamento" style=>
+                <div class="container container-financiamento">
                     <div class="row financiamento">
                         <h5 style="margin-top: 10px; color: rgb(241, 241, 241);">Dados Pessoais</h5>
                     </div>
@@ -164,10 +165,10 @@
 
 
 
-                    <div class="col">
+                    <div class="label">
                         <label>Estado Civil:</label>
                     </div>
-                    <div class="col">
+                    <div>
                         <select style="width: 150px;">
                             <option>Selecione:</option>
                             <option>Casado(a):</option>
@@ -177,11 +178,15 @@
                             <option>Outros:</option>
                         </select>
                     </div>
-                    <div class="col">
+                    <div class="mt-2 label">
                         <label>Data Nascimento:</label>
                     </div>
-                    <div class="col">
+                    <div>
                         <input type="date" style="margin-bottom: 10px; width: 150px;">
+                    </div>
+                    
+                    <div>
+                        <button type="reset" class="enviar">ENVIAR</button>
                     </div>
 
 
@@ -214,7 +219,7 @@
                 <div class="col-lg-4">
                     <h5>ENDEREÇO</h5>
                     <hr>
-                    <p style="color: #999;">Av. Gastão Sengés, Barra da Tijuca, Rio de Janeiro-RJ</p>
+                    <p style="color: #999;">Av. Gastão Sengés, Barra da Tijuca, Rio de Janeiro-RJ, n° 1700</p>
                 </div>
             </div>
         </div>
